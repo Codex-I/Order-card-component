@@ -21,9 +21,10 @@ main {
     border-radius: 10px;
     width: 25%;
     background-color: white;
+    box-shadow: 1px 7px 12px hsl(225deg 34% 76%) ;
 }
 
-section img {
+ section img{
     border-radius: 10px 10px 0 0;
     width: 100%;
 }
@@ -87,6 +88,11 @@ article {
     font-size: 12px;
     font-weight: 700;
 }
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(189, 132, 255);
+}
 
 button {
     padding: 10px;
@@ -97,12 +103,20 @@ button {
     border: none;
     box-shadow: 1px 7px 12px hsl(225deg 34% 76%);
 }
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
 
 .order {
     text-decoration: none;
     color: hsl(224, 23%, 55%);
     font-size: 12px;
     font-weight: 600;
+}
+.order a:hover {
+    color: rgb(9, 43, 44);
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 735px) {
